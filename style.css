@@ -80,7 +80,8 @@ h1 {
 /* Animation */
 
 .anim-typewriter {
-    animation: typewriter 4s steps(34) 1s 1 normal both, blinkTextCursor 500ms steps(34) infinite normal;
+    animation: typewriter 4s steps(24) 1s 1 normal both, blinkTextCursor 500ms steps(24) infinite normal;
+    -webkit-animation: typewriter 4s steps(24) 1s 1 normal both, blinkTextCursor 500ms steps(24) infinite normal;
 }
 
 @keyframes typewriter {
@@ -88,7 +89,7 @@ h1 {
         width: 0;
     }
     to {
-        width: 24em;
+        width: 14em;
     }
 }
 
