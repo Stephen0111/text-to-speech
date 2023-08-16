@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(45deg, yellow, blue);
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    background-color: black;
+    background-color: darkgray;
     width: 600px;
     height: 600px;
     display: flex;
@@ -31,6 +31,7 @@ h1 {
     font-size: 24px;
     font-weight: 600;
     color: white;
+    text-align: center;
 }
 
 .textarea {
@@ -50,7 +51,7 @@ h1 {
 .textToSpeechBtn {
     width: 50%;
     height: 40px;
-    background: linear-gradient(45deg, blue, purple);
+    background: black;
     border: none;
     font-weight: 500;
     font-size: 16px;
@@ -61,47 +62,9 @@ h1 {
 }
 
 .textToSpeechBtn:hover {
-    opacity: 1;
+    opacity: 3;
 }
 
 .textToSpeechBtn:active {
     transform: scale(0.95);
-}
-
-.line-1 {
-    font-size: 150%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-}
-
-
-/* Animation */
-
-.anim-typewriter {
-    animation: typewriter 4s steps(24) 1s 1 normal both, blinkTextCursor 500ms steps(24) infinite normal;
-    -webkit-animation: typewriter 4s steps(24) 1s 1 normal both, blinkTextCursor 500ms steps(24) infinite normal;
-}
-
-@keyframes typewriter {
-    from {
-        width: 0;
-    }
-    to {
-        width: 5em;
-    }
-}
-
-@keyframes blinkTextCursor {
-    from {
-        border-right-color: rgba(255, 255, 255, .75);
-    }
-    to {
-        border-right-color: transparent;
-    }
 }
