@@ -7,18 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text to Speech</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
-<h1 class=" line-1 anim-typewriter">enter text</h1>
+<section>
+    <div>
+
+    </div>
+</section>
 
 <body>
 
     <div class="container">
-        <textarea class="textarea"></textarea>
-        <!-- speaker unicode -->
-        <div class="speakerIcon">&#128264;</div>
-        <button class="textToSpeechBtn" style="color:white">Convert Text</button>
+        <div class="row  jusify-content-between">
+            <div class="col-4"><br><br>
+                <p style="font-weight:400">Enter the text and click the button to convert to speech</p>
+            </div>
+            <div class="col-8 text-center">
+                <textarea class="textarea"></textarea>
+
+                <div class="speakerIcon">&#128264;</div>
+                <button class="textToSpeechBtn" style="color:white">Convert To Speech</button>
+            </div>
+        </div>
     </div>
     <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 
 </html>
